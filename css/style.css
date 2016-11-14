@@ -6,7 +6,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff; 
+    background-color: #8dd584; 
 }
 #main_container:before,#main_container:after{
     content: '';
@@ -24,7 +24,7 @@
     height: 510px;
     box-sizing: border-box;
     overflow: hidden;
-    border: 1px solid #ffffff;
+    border: 1px solid #8dd584;
 }
 
 #head_container {
@@ -48,4 +48,10 @@
     margin-left: 20px;
     float: left;
     margin-top: 20px;
+}
+
+#log_holder {
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
 }
