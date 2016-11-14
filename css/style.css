@@ -40,3 +40,12 @@
     margin-top: 20px;
     border: 1px solid;
 }
+
+#centered_formcontainer {
+    width: 200px;
+    height: 420px;
+    border: 1px solid;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
