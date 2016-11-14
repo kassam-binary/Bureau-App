@@ -1,0 +1,2248 @@
+{
+	"currencies": [
+		{
+			"description": "United Arab Emirates Dirham",
+			"keywords": [
+				"AED",
+				"United",
+				"Arab",
+				"Emirates",
+				"Dirham",
+				"United Arab Emirates"
+			],
+			"countries": [
+				"ARE"
+			],
+			"name": "AED"
+		},
+		{
+			"description": "Afghan Afghani",
+			"keywords": [
+				"AFN",
+				"Afghan",
+				"Afghani",
+				"Afghanistan"
+			],
+			"countries": [
+				"AFG"
+			],
+			"name": "AFN"
+		},
+		{
+			"description": "Albanian Lek",
+			"keywords": [
+				"ALL",
+				"Albanian",
+				"Lek",
+				"Albania"
+			],
+			"countries": [
+				"ALB"
+			],
+			"name": "ALL"
+		},
+		{
+			"description": "Armenian Dram",
+			"keywords": [
+				"AMD",
+				"Armenian",
+				"Dram",
+				"Armenia"
+			],
+			"countries": [
+				"ARM"
+			],
+			"name": "AMD"
+		},
+		{
+			"description": "Netherlands Antillean Guilder",
+			"keywords": [
+				"ANG",
+				"Netherlands",
+				"Antillean",
+				"Guilder",
+				"Sint Maarten",
+				"Curacao"
+			],
+			"countries": [
+				"SXM",
+				"CUW"
+			],
+			"name": "ANG"
+		},
+		{
+			"description": "Angolan Kwanza",
+			"keywords": [
+				"AOA",
+				"Angolan",
+				"Kwanza",
+				"Angola"
+			],
+			"countries": [
+				"AGO"
+			],
+			"name": "AOA"
+		},
+		{
+			"description": "Argentine Peso",
+			"keywords": [
+				"ARS",
+				"Argentine",
+				"Peso",
+				"Argentina"
+			],
+			"countries": [
+				"ARG"
+			],
+			"name": "ARS"
+		},
+		{
+			"description": "Australian Dollar",
+			"keywords": [
+				"AUD",
+				"Australian",
+				"Dollar",
+				"Australia",
+				"Heard Island and McDonald Islands",
+				"Christmas Island",
+				"Kiribati",
+				"Norfolk Island",
+				"Nauru",
+				"Tuvalu",
+				"Cocos Islands"
+			],
+			"countries": [
+				"AUS",
+				"HMD",
+				"CXR",
+				"KIR",
+				"NFK",
+				"NRU",
+				"TUV",
+				"CCK"
+			],
+			"name": "AUD"
+		},
+		{
+			"description": "Aruban Florin",
+			"keywords": [
+				"AWG",
+				"Aruban",
+				"Florin",
+				"Aruba"
+			],
+			"countries": [
+				"ABW"
+			],
+			"name": "AWG"
+		},
+		{
+			"description": "Azerbaijani Manat",
+			"keywords": [
+				"AZN",
+				"Azerbaijani",
+				"Manat",
+				"Azerbaijan"
+			],
+			"countries": [
+				"AZE"
+			],
+			"name": "AZN"
+		},
+		{
+			"description": "Bosnia-Herzegovina Convertible Mark",
+			"keywords": [
+				"BAM",
+				"Bosnia-Herzegovina",
+				"Convertible",
+				"Mark",
+				"Bosnia and Herzegovina"
+			],
+			"countries": [
+				"BIH"
+			],
+			"name": "BAM"
+		},
+		{
+			"description": "Barbadian Dollar",
+			"keywords": [
+				"BBD",
+				"Barbadian",
+				"Dollar",
+				"Barbados"
+			],
+			"countries": [
+				"BRB"
+			],
+			"name": "BBD"
+		},
+		{
+			"description": "Bangladeshi Taka",
+			"keywords": [
+				"BDT",
+				"Bangladeshi",
+				"Taka",
+				"Bangladesh"
+			],
+			"countries": [
+				"BGD"
+			],
+			"name": "BDT"
+		},
+		{
+			"description": "Bulgarian Lev",
+			"keywords": [
+				"BGN",
+				"Bulgarian",
+				"Lev",
+				"Bulgaria"
+			],
+			"countries": [
+				"BGR"
+			],
+			"name": "BGN"
+		},
+		{
+			"description": "Bahraini Dinar",
+			"keywords": [
+				"BHD",
+				"Bahraini",
+				"Dinar",
+				"Bahrain"
+			],
+			"countries": [
+				"BHR"
+			],
+			"name": "BHD"
+		},
+		{
+			"description": "Burundian Franc",
+			"keywords": [
+				"BIF",
+				"Burundian",
+				"Franc",
+				"Burundi"
+			],
+			"countries": [
+				"BDI"
+			],
+			"name": "BIF"
+		},
+		{
+			"description": "Bermudan Dollar",
+			"keywords": [
+				"BMD",
+				"Bermudan",
+				"Dollar",
+				"Bermuda"
+			],
+			"countries": [
+				"BMU"
+			],
+			"name": "BMD"
+		},
+		{
+			"description": "Brunei Dollar",
+			"keywords": [
+				"BND",
+				"Brunei",
+				"Dollar",
+				"Brunei"
+			],
+			"countries": [
+				"BRN"
+			],
+			"name": "BND"
+		},
+		{
+			"description": "Bolivian Boliviano",
+			"keywords": [
+				"BOB",
+				"Bolivian",
+				"Boliviano",
+				"Bolivia"
+			],
+			"countries": [
+				"BOL"
+			],
+			"name": "BOB"
+		},
+		{
+			"description": "Brazilian Real",
+			"keywords": [
+				"BRL",
+				"Brazilian",
+				"Real",
+				"Brazil"
+			],
+			"countries": [
+				"BRA"
+			],
+			"name": "BRL"
+		},
+		{
+			"description": "Bahamian Dollar",
+			"keywords": [
+				"BSD",
+				"Bahamian",
+				"Dollar",
+				"Bahamas"
+			],
+			"countries": [
+				"BHS"
+			],
+			"name": "BSD"
+		},
+		{
+			"description": "Bitcoin",
+			"keywords": [
+				"BTC",
+				"Bitcoin"
+			],
+			"countries": null,
+			"name": "BTC"
+		},
+		{
+			"description": "Bhutanese Ngultrum",
+			"keywords": [
+				"BTN",
+				"Bhutanese",
+				"Ngultrum",
+				"Bhutan"
+			],
+			"countries": [
+				"BTN"
+			],
+			"name": "BTN"
+		},
+		{
+			"description": "Botswanan Pula",
+			"keywords": [
+				"BWP",
+				"Botswanan",
+				"Pula",
+				"Botswana"
+			],
+			"countries": [
+				"BWA"
+			],
+			"name": "BWP"
+		},
+		{
+			"description": "Belarusian Ruble",
+			"keywords": [
+				"BYR",
+				"Belarusian",
+				"Ruble",
+				"Belarus"
+			],
+			"countries": [
+				"BLR"
+			],
+			"name": "BYR"
+		},
+		{
+			"description": "Belize Dollar",
+			"keywords": [
+				"BZD",
+				"Belize",
+				"Dollar",
+				"Belize"
+			],
+			"countries": [
+				"BLZ"
+			],
+			"name": "BZD"
+		},
+		{
+			"description": "Canadian Dollar",
+			"keywords": [
+				"CAD",
+				"Canadian",
+				"Dollar",
+				"Canada"
+			],
+			"countries": [
+				"CAN"
+			],
+			"name": "CAD"
+		},
+		{
+			"description": "Congolese Franc",
+			"keywords": [
+				"CDF",
+				"Congolese",
+				"Franc",
+				"Democratic Republic of the Congo"
+			],
+			"countries": [
+				"COD"
+			],
+			"name": "CDF"
+		},
+		{
+			"description": "Swiss Franc",
+			"keywords": [
+				"CHF",
+				"Swiss",
+				"Franc",
+				"Switzerland",
+				"Liechtenstein"
+			],
+			"countries": [
+				"CHE",
+				"LIE"
+			],
+			"name": "CHF"
+		},
+		{
+			"description": "Chilean Peso",
+			"keywords": [
+				"CLP",
+				"Chilean",
+				"Peso",
+				"Chile"
+			],
+			"countries": [
+				"CHL"
+			],
+			"name": "CLP"
+		},
+		{
+			"description": "Chinese Yuan",
+			"keywords": [
+				"CNY",
+				"Chinese",
+				"Yuan",
+				"China"
+			],
+			"countries": [
+				"CHN"
+			],
+			"name": "CNY"
+		},
+		{
+			"description": "Colombian Peso",
+			"keywords": [
+				"COP",
+				"Colombian",
+				"Peso",
+				"Colombia"
+			],
+			"countries": [
+				"COL"
+			],
+			"name": "COP"
+		},
+		{
+			"description": "Costa Rican Colón",
+			"keywords": [
+				"CRC",
+				"Costa",
+				"Rican",
+				"Colón",
+				"Costa Rica"
+			],
+			"countries": [
+				"CRI"
+			],
+			"name": "CRC"
+		},
+		{
+			"description": "Cuban Peso",
+			"keywords": [
+				"CUP",
+				"Cuban",
+				"Peso",
+				"Cuba"
+			],
+			"countries": [
+				"CUB"
+			],
+			"name": "CUP"
+		},
+		{
+			"description": "Cape Verdean Escudo",
+			"keywords": [
+				"CVE",
+				"Cape",
+				"Verdean",
+				"Escudo",
+				"Cape Verde"
+			],
+			"countries": [
+				"CPV"
+			],
+			"name": "CVE"
+		},
+		{
+			"description": "Czech Republic Koruna",
+			"keywords": [
+				"CZK",
+				"Czech",
+				"Republic",
+				"Koruna",
+				"Czech Republic"
+			],
+			"countries": [
+				"CZE"
+			],
+			"name": "CZK"
+		},
+		{
+			"description": "Djiboutian Franc",
+			"keywords": [
+				"DJF",
+				"Djiboutian",
+				"Franc",
+				"Djibouti"
+			],
+			"countries": [
+				"DJI"
+			],
+			"name": "DJF"
+		},
+		{
+			"description": "Danish Krone",
+			"keywords": [
+				"DKK",
+				"Danish",
+				"Krone",
+				"Denmark",
+				"Greenland",
+				"Faroe Islands"
+			],
+			"countries": [
+				"DNK",
+				"GRL",
+				"FRO"
+			],
+			"name": "DKK"
+		},
+		{
+			"description": "Dominican Peso",
+			"keywords": [
+				"DOP",
+				"Dominican",
+				"Peso",
+				"Dominican Republic"
+			],
+			"countries": [
+				"DOM"
+			],
+			"name": "DOP"
+		},
+		{
+			"description": "Algerian Dinar",
+			"keywords": [
+				"DZD",
+				"Algerian",
+				"Dinar",
+				"Algeria"
+			],
+			"countries": [
+				"DZA"
+			],
+			"name": "DZD"
+		},
+		{
+			"description": "Egyptian Pound",
+			"keywords": [
+				"EGP",
+				"Egyptian",
+				"Pound",
+				"Egypt"
+			],
+			"countries": [
+				"EGY"
+			],
+			"name": "EGP"
+		},
+		{
+			"description": "Eritrean Nakfa",
+			"keywords": [
+				"ERN",
+				"Eritrean",
+				"Nakfa",
+				"Eritrea"
+			],
+			"countries": [
+				"ERI"
+			],
+			"name": "ERN"
+		},
+		{
+			"description": "Ethiopian Birr",
+			"keywords": [
+				"ETB",
+				"Ethiopian",
+				"Birr",
+				"Ethiopia"
+			],
+			"countries": [
+				"ETH"
+			],
+			"name": "ETB"
+		},
+		{
+			"description": "Euro",
+			"keywords": [
+				"EUR",
+				"Euro",
+				"Montenegro",
+				"Guadeloupe",
+				"Belgium",
+				"Vatican",
+				"Kosovo",
+				"French Guiana",
+				"Cyprus",
+				"Portugal",
+				"Italy",
+				"Martinique",
+				"Netherlands",
+				"Spain",
+				"Monaco",
+				"France",
+				"Reunion",
+				"Saint Martin",
+				"Latvia",
+				"Slovenia",
+				"Finland",
+				"Malta",
+				"Mayotte",
+				"Estonia",
+				"French Southern Territories",
+				"Saint Pierre and Miquelon",
+				"Luxembourg",
+				"Aland Islands",
+				"Ireland",
+				"Greece",
+				"San Marino",
+				"Saint Barthelemy",
+				"Andorra",
+				"Austria",
+				"Germany",
+				"Slovakia"
+			],
+			"countries": [
+				"MNE",
+				"GLP",
+				"BEL",
+				"VAT",
+				"XKX",
+				"GUF",
+				"CYP",
+				"PRT",
+				"ITA",
+				"MTQ",
+				"NLD",
+				"ESP",
+				"MCO",
+				"FRA",
+				"REU",
+				"MAF",
+				"LVA",
+				"SVN",
+				"FIN",
+				"MLT",
+				"MYT",
+				"EST",
+				"ATF",
+				"SPM",
+				"LUX",
+				"ALA",
+				"IRL",
+				"GRC",
+				"SMR",
+				"BLM",
+				"AND",
+				"AUT",
+				"DEU",
+				"SVK"
+			],
+			"name": "EUR"
+		},
+		{
+			"description": "Fijian Dollar",
+			"keywords": [
+				"FJD",
+				"Fijian",
+				"Dollar",
+				"Fiji"
+			],
+			"countries": [
+				"FJI"
+			],
+			"name": "FJD"
+		},
+		{
+			"description": "Falkland Islands Pound",
+			"keywords": [
+				"FKP",
+				"Falkland",
+				"Islands",
+				"Pound",
+				"Falkland Islands"
+			],
+			"countries": [
+				"FLK"
+			],
+			"name": "FKP"
+		},
+		{
+			"description": "British Pound Sterling",
+			"keywords": [
+				"GBP",
+				"British",
+				"Pound",
+				"Sterling",
+				"Guernsey",
+				"United Kingdom",
+				"South Georgia and the South Sandwich Islands",
+				"Isle of Man"
+			],
+			"countries": [
+				"GGY",
+				"GBR",
+				"SGS",
+				"IMN"
+			],
+			"name": "GBP"
+		},
+		{
+			"description": "Georgian Lari",
+			"keywords": [
+				"GEL",
+				"Georgian",
+				"Lari",
+				"Georgia"
+			],
+			"countries": [
+				"GEO"
+			],
+			"name": "GEL"
+		},
+		{
+			"description": "Ghanaian Cedi",
+			"keywords": [
+				"GHS",
+				"Ghanaian",
+				"Cedi",
+				"Ghana"
+			],
+			"countries": [
+				"GHA"
+			],
+			"name": "GHS"
+		},
+		{
+			"description": "Gibraltar Pound",
+			"keywords": [
+				"GIP",
+				"Gibraltar",
+				"Pound",
+				"Gibraltar"
+			],
+			"countries": [
+				"GIB"
+			],
+			"name": "GIP"
+		},
+		{
+			"description": "Gambian Dalasi",
+			"keywords": [
+				"GMD",
+				"Gambian",
+				"Dalasi",
+				"Gambia"
+			],
+			"countries": [
+				"GMB"
+			],
+			"name": "GMD"
+		},
+		{
+			"description": "Guinean Franc",
+			"keywords": [
+				"GNF",
+				"Guinean",
+				"Franc",
+				"Guinea"
+			],
+			"countries": [
+				"GIN"
+			],
+			"name": "GNF"
+		},
+		{
+			"description": "Guatemalan Quetzal",
+			"keywords": [
+				"GTQ",
+				"Guatemalan",
+				"Quetzal",
+				"Guatemala"
+			],
+			"countries": [
+				"GTM"
+			],
+			"name": "GTQ"
+		},
+		{
+			"description": "Guyanaese Dollar",
+			"keywords": [
+				"GYD",
+				"Guyanaese",
+				"Dollar",
+				"Guyana"
+			],
+			"countries": [
+				"GUY"
+			],
+			"name": "GYD"
+		},
+		{
+			"description": "Hong Kong Dollar",
+			"keywords": [
+				"HKD",
+				"Hong",
+				"Kong",
+				"Dollar",
+				"Hong Kong"
+			],
+			"countries": [
+				"HKG"
+			],
+			"name": "HKD"
+		},
+		{
+			"description": "Honduran Lempira",
+			"keywords": [
+				"HNL",
+				"Honduran",
+				"Lempira",
+				"Honduras"
+			],
+			"countries": [
+				"HND"
+			],
+			"name": "HNL"
+		},
+		{
+			"description": "Croatian Kuna",
+			"keywords": [
+				"HRK",
+				"Croatian",
+				"Kuna",
+				"Croatia"
+			],
+			"countries": [
+				"HRV"
+			],
+			"name": "HRK"
+		},
+		{
+			"description": "Haitian Gourde",
+			"keywords": [
+				"HTG",
+				"Haitian",
+				"Gourde",
+				"Haiti"
+			],
+			"countries": [
+				"HTI"
+			],
+			"name": "HTG"
+		},
+		{
+			"description": "Hungarian Forint",
+			"keywords": [
+				"HUF",
+				"Hungarian",
+				"Forint",
+				"Hungary"
+			],
+			"countries": [
+				"HUN"
+			],
+			"name": "HUF"
+		},
+		{
+			"description": "Indonesian Rupiah",
+			"keywords": [
+				"IDR",
+				"Indonesian",
+				"Rupiah",
+				"Indonesia"
+			],
+			"countries": [
+				"IDN"
+			],
+			"name": "IDR"
+		},
+		{
+			"description": "Israeli New Sheqel",
+			"keywords": [
+				"ILS",
+				"Israeli",
+				"New",
+				"Sheqel",
+				"Palestinian Territory",
+				"Israel"
+			],
+			"countries": [
+				"PSE",
+				"ISR"
+			],
+			"name": "ILS"
+		},
+		{
+			"description": "Indian Rupee",
+			"keywords": [
+				"INR",
+				"Indian",
+				"Rupee",
+				"India"
+			],
+			"countries": [
+				"IND"
+			],
+			"name": "INR"
+		},
+		{
+			"description": "Iraqi Dinar",
+			"keywords": [
+				"IQD",
+				"Iraqi",
+				"Dinar",
+				"Iraq"
+			],
+			"countries": [
+				"IRQ"
+			],
+			"name": "IQD"
+		},
+		{
+			"description": "Iranian Rial",
+			"keywords": [
+				"IRR",
+				"Iranian",
+				"Rial",
+				"Iran"
+			],
+			"countries": [
+				"IRN"
+			],
+			"name": "IRR"
+		},
+		{
+			"description": "Icelandic Króna",
+			"keywords": [
+				"ISK",
+				"Icelandic",
+				"Króna",
+				"Iceland"
+			],
+			"countries": [
+				"ISL"
+			],
+			"name": "ISK"
+		},
+		{
+			"description": "Jamaican Dollar",
+			"keywords": [
+				"JMD",
+				"Jamaican",
+				"Dollar",
+				"Jamaica"
+			],
+			"countries": [
+				"JAM"
+			],
+			"name": "JMD"
+		},
+		{
+			"description": "Jordanian Dinar",
+			"keywords": [
+				"JOD",
+				"Jordanian",
+				"Dinar",
+				"Jordan"
+			],
+			"countries": [
+				"JOR"
+			],
+			"name": "JOD"
+		},
+		{
+			"description": "Japanese Yen",
+			"keywords": [
+				"JPY",
+				"Japanese",
+				"Yen",
+				"Japan"
+			],
+			"countries": [
+				"JPN"
+			],
+			"name": "JPY"
+		},
+		{
+			"description": "Kenyan Shilling",
+			"keywords": [
+				"KES",
+				"Kenyan",
+				"Shilling",
+				"Kenya"
+			],
+			"countries": [
+				"KEN"
+			],
+			"name": "KES"
+		},
+		{
+			"description": "Kyrgystani Som",
+			"keywords": [
+				"KGS",
+				"Kyrgystani",
+				"Som",
+				"Kyrgyzstan"
+			],
+			"countries": [
+				"KGZ"
+			],
+			"name": "KGS"
+		},
+		{
+			"description": "Cambodian Riel",
+			"keywords": [
+				"KHR",
+				"Cambodian",
+				"Riel",
+				"Cambodia"
+			],
+			"countries": [
+				"KHM"
+			],
+			"name": "KHR"
+		},
+		{
+			"description": "Comorian Franc",
+			"keywords": [
+				"KMF",
+				"Comorian",
+				"Franc",
+				"Comoros"
+			],
+			"countries": [
+				"COM"
+			],
+			"name": "KMF"
+		},
+		{
+			"description": "North Korean Won",
+			"keywords": [
+				"KPW",
+				"North",
+				"Korean",
+				"Won",
+				"North Korea"
+			],
+			"countries": [
+				"PRK"
+			],
+			"name": "KPW"
+		},
+		{
+			"description": "South Korean Won",
+			"keywords": [
+				"KRW",
+				"South",
+				"Korean",
+				"Won",
+				"South Korea"
+			],
+			"countries": [
+				"KOR"
+			],
+			"name": "KRW"
+		},
+		{
+			"description": "Kuwaiti Dinar",
+			"keywords": [
+				"KWD",
+				"Kuwaiti",
+				"Dinar",
+				"Kuwait"
+			],
+			"countries": [
+				"KWT"
+			],
+			"name": "KWD"
+		},
+		{
+			"description": "Cayman Islands Dollar",
+			"keywords": [
+				"KYD",
+				"Cayman",
+				"Islands",
+				"Dollar",
+				"Cayman Islands"
+			],
+			"countries": [
+				"CYM"
+			],
+			"name": "KYD"
+		},
+		{
+			"description": "Kazakhstani Tenge",
+			"keywords": [
+				"KZT",
+				"Kazakhstani",
+				"Tenge",
+				"Kazakhstan"
+			],
+			"countries": [
+				"KAZ"
+			],
+			"name": "KZT"
+		},
+		{
+			"description": "Laotian Kip",
+			"keywords": [
+				"LAK",
+				"Laotian",
+				"Kip",
+				"Laos"
+			],
+			"countries": [
+				"LAO"
+			],
+			"name": "LAK"
+		},
+		{
+			"description": "Lebanese Pound",
+			"keywords": [
+				"LBP",
+				"Lebanese",
+				"Pound",
+				"Lebanon"
+			],
+			"countries": [
+				"LBN"
+			],
+			"name": "LBP"
+		},
+		{
+			"description": "Sri Lankan Rupee",
+			"keywords": [
+				"LKR",
+				"Sri",
+				"Lankan",
+				"Rupee",
+				"Sri Lanka"
+			],
+			"countries": [
+				"LKA"
+			],
+			"name": "LKR"
+		},
+		{
+			"description": "Liberian Dollar",
+			"keywords": [
+				"LRD",
+				"Liberian",
+				"Dollar",
+				"Liberia"
+			],
+			"countries": [
+				"LBR"
+			],
+			"name": "LRD"
+		},
+		{
+			"description": "Lesotho Loti",
+			"keywords": [
+				"LSL",
+				"Lesotho",
+				"Loti",
+				"Lesotho"
+			],
+			"countries": [
+				"LSO"
+			],
+			"name": "LSL"
+		},
+		{
+			"description": "Lithuanian Litas",
+			"keywords": [
+				"LTL",
+				"Lithuanian",
+				"Litas",
+				"Lithuania"
+			],
+			"countries": [
+				"LTU"
+			],
+			"name": "LTL"
+		},
+		{
+			"description": "Latvian Lats",
+			"keywords": [
+				"LVL",
+				"Latvian",
+				"Lats"
+			],
+			"countries": null,
+			"name": "LVL"
+		},
+		{
+			"description": "Libyan Dinar",
+			"keywords": [
+				"LYD",
+				"Libyan",
+				"Dinar",
+				"Libya"
+			],
+			"countries": [
+				"LBY"
+			],
+			"name": "LYD"
+		},
+		{
+			"description": "Moldovan Leu",
+			"keywords": [
+				"MDL",
+				"Moldovan",
+				"Leu",
+				"Moldova"
+			],
+			"countries": [
+				"MDA"
+			],
+			"name": "MDL"
+		},
+		{
+			"description": "Malagasy Ariary",
+			"keywords": [
+				"MGA",
+				"Malagasy",
+				"Ariary",
+				"Madagascar"
+			],
+			"countries": [
+				"MDG"
+			],
+			"name": "MGA"
+		},
+		{
+			"description": "Macedonian Denar",
+			"keywords": [
+				"MKD",
+				"Macedonian",
+				"Denar",
+				"Macedonia"
+			],
+			"countries": [
+				"MKD"
+			],
+			"name": "MKD"
+		},
+		{
+			"description": "Myanma Kyat",
+			"keywords": [
+				"MMK",
+				"Myanma",
+				"Kyat",
+				"Myanmar"
+			],
+			"countries": [
+				"MMR"
+			],
+			"name": "MMK"
+		},
+		{
+			"description": "Mongolian Tugrik",
+			"keywords": [
+				"MNT",
+				"Mongolian",
+				"Tugrik",
+				"Mongolia"
+			],
+			"countries": [
+				"MNG"
+			],
+			"name": "MNT"
+		},
+		{
+			"description": "Macanese Pataca",
+			"keywords": [
+				"MOP",
+				"Macanese",
+				"Pataca",
+				"Macao"
+			],
+			"countries": [
+				"MAC"
+			],
+			"name": "MOP"
+		},
+		{
+			"description": "Mauritanian Ouguiya",
+			"keywords": [
+				"MRO",
+				"Mauritanian",
+				"Ouguiya",
+				"Mauritania"
+			],
+			"countries": [
+				"MRT"
+			],
+			"name": "MRO"
+		},
+		{
+			"description": "Mauritian Rupee",
+			"keywords": [
+				"MUR",
+				"Mauritian",
+				"Rupee",
+				"Mauritius"
+			],
+			"countries": [
+				"MUS"
+			],
+			"name": "MUR"
+		},
+		{
+			"description": "Maldivian Rufiyaa",
+			"keywords": [
+				"MVR",
+				"Maldivian",
+				"Rufiyaa",
+				"Maldives"
+			],
+			"countries": [
+				"MDV"
+			],
+			"name": "MVR"
+		},
+		{
+			"description": "Malawian Kwacha",
+			"keywords": [
+				"MWK",
+				"Malawian",
+				"Kwacha",
+				"Malawi"
+			],
+			"countries": [
+				"MWI"
+			],
+			"name": "MWK"
+		},
+		{
+			"description": "Mexican Peso",
+			"keywords": [
+				"MXN",
+				"Mexican",
+				"Peso",
+				"Mexico"
+			],
+			"countries": [
+				"MEX"
+			],
+			"name": "MXN"
+		},
+		{
+			"description": "Malaysian Ringgit",
+			"keywords": [
+				"MYR",
+				"Malaysian",
+				"Ringgit",
+				"Malaysia"
+			],
+			"countries": [
+				"MYS"
+			],
+			"name": "MYR"
+		},
+		{
+			"description": "Mozambican Metical",
+			"keywords": [
+				"MZN",
+				"Mozambican",
+				"Metical",
+				"Mozambique"
+			],
+			"countries": [
+				"MOZ"
+			],
+			"name": "MZN"
+		},
+		{
+			"description": "Namibian Dollar",
+			"keywords": [
+				"NAD",
+				"Namibian",
+				"Dollar",
+				"Namibia"
+			],
+			"countries": [
+				"NAM"
+			],
+			"name": "NAD"
+		},
+		{
+			"description": "Nigerian Naira",
+			"keywords": [
+				"NGN",
+				"Nigerian",
+				"Naira",
+				"Nigeria"
+			],
+			"countries": [
+				"NGA"
+			],
+			"name": "NGN"
+		},
+		{
+			"description": "Nicaraguan Córdoba",
+			"keywords": [
+				"NIO",
+				"Nicaraguan",
+				"Córdoba",
+				"Nicaragua"
+			],
+			"countries": [
+				"NIC"
+			],
+			"name": "NIO"
+		},
+		{
+			"description": "Norwegian Krone",
+			"keywords": [
+				"NOK",
+				"Norwegian",
+				"Krone",
+				"Norway",
+				"Bouvet Island",
+				"Svalbard and Jan Mayen"
+			],
+			"countries": [
+				"NOR",
+				"BVT",
+				"SJM"
+			],
+			"name": "NOK"
+		},
+		{
+			"description": "Nepalese Rupee",
+			"keywords": [
+				"NPR",
+				"Nepalese",
+				"Rupee",
+				"Nepal"
+			],
+			"countries": [
+				"NPL"
+			],
+			"name": "NPR"
+		},
+		{
+			"description": "New Zealand Dollar",
+			"keywords": [
+				"NZD",
+				"New",
+				"Zealand",
+				"Dollar",
+				"New Zealand",
+				"Niue",
+				"Pitcairn",
+				"Tokelau",
+				"Cook Islands"
+			],
+			"countries": [
+				"NZL",
+				"NIU",
+				"PCN",
+				"TKL",
+				"COK"
+			],
+			"name": "NZD"
+		},
+		{
+			"description": "Omani Rial",
+			"keywords": [
+				"OMR",
+				"Omani",
+				"Rial",
+				"Oman"
+			],
+			"countries": [
+				"OMN"
+			],
+			"name": "OMR"
+		},
+		{
+			"description": "Panamanian Balboa",
+			"keywords": [
+				"PAB",
+				"Panamanian",
+				"Balboa",
+				"Panama"
+			],
+			"countries": [
+				"PAN"
+			],
+			"name": "PAB"
+		},
+		{
+			"description": "Peruvian Nuevo Sol",
+			"keywords": [
+				"PEN",
+				"Peruvian",
+				"Nuevo",
+				"Sol",
+				"Peru"
+			],
+			"countries": [
+				"PER"
+			],
+			"name": "PEN"
+		},
+		{
+			"description": "Papua New Guinean Kina",
+			"keywords": [
+				"PGK",
+				"Papua",
+				"New",
+				"Guinean",
+				"Kina",
+				"Papua New Guinea"
+			],
+			"countries": [
+				"PNG"
+			],
+			"name": "PGK"
+		},
+		{
+			"description": "Philippine Peso",
+			"keywords": [
+				"PHP",
+				"Philippine",
+				"Peso",
+				"Philippines"
+			],
+			"countries": [
+				"PHL"
+			],
+			"name": "PHP"
+		},
+		{
+			"description": "Pakistani Rupee",
+			"keywords": [
+				"PKR",
+				"Pakistani",
+				"Rupee",
+				"Pakistan"
+			],
+			"countries": [
+				"PAK"
+			],
+			"name": "PKR"
+		},
+		{
+			"description": "Polish Zloty",
+			"keywords": [
+				"PLN",
+				"Polish",
+				"Zloty",
+				"Poland"
+			],
+			"countries": [
+				"POL"
+			],
+			"name": "PLN"
+		},
+		{
+			"description": "Paraguayan Guarani",
+			"keywords": [
+				"PYG",
+				"Paraguayan",
+				"Guarani",
+				"Paraguay"
+			],
+			"countries": [
+				"PRY"
+			],
+			"name": "PYG"
+		},
+		{
+			"description": "Qatari Rial",
+			"keywords": [
+				"QAR",
+				"Qatari",
+				"Rial",
+				"Qatar"
+			],
+			"countries": [
+				"QAT"
+			],
+			"name": "QAR"
+		},
+		{
+			"description": "Romanian Leu",
+			"keywords": [
+				"RON",
+				"Romanian",
+				"Leu",
+				"Romania"
+			],
+			"countries": [
+				"ROU"
+			],
+			"name": "RON"
+		},
+		{
+			"description": "Serbian Dinar",
+			"keywords": [
+				"RSD",
+				"Serbian",
+				"Dinar",
+				"Serbia"
+			],
+			"countries": [
+				"SRB"
+			],
+			"name": "RSD"
+		},
+		{
+			"description": "Russian Ruble",
+			"keywords": [
+				"RUB",
+				"Russian",
+				"Ruble",
+				"Russia"
+			],
+			"countries": [
+				"RUS"
+			],
+			"name": "RUB"
+		},
+		{
+			"description": "Rwandan Franc",
+			"keywords": [
+				"RWF",
+				"Rwandan",
+				"Franc",
+				"Rwanda"
+			],
+			"countries": [
+				"RWA"
+			],
+			"name": "RWF"
+		},
+		{
+			"description": "Saudi Riyal",
+			"keywords": [
+				"SAR",
+				"Saudi",
+				"Riyal",
+				"Saudi Arabia"
+			],
+			"countries": [
+				"SAU"
+			],
+			"name": "SAR"
+		},
+		{
+			"description": "Solomon Islands Dollar",
+			"keywords": [
+				"SBD",
+				"Solomon",
+				"Islands",
+				"Dollar",
+				"Solomon Islands"
+			],
+			"countries": [
+				"SLB"
+			],
+			"name": "SBD"
+		},
+		{
+			"description": "Seychellois Rupee",
+			"keywords": [
+				"SCR",
+				"Seychellois",
+				"Rupee",
+				"Seychelles"
+			],
+			"countries": [
+				"SYC"
+			],
+			"name": "SCR"
+		},
+		{
+			"description": "Sudanese Pound",
+			"keywords": [
+				"SDG",
+				"Sudanese",
+				"Pound",
+				"Sudan"
+			],
+			"countries": [
+				"SDN"
+			],
+			"name": "SDG"
+		},
+		{
+			"description": "Swedish Krona",
+			"keywords": [
+				"SEK",
+				"Swedish",
+				"Krona",
+				"Sweden"
+			],
+			"countries": [
+				"SWE"
+			],
+			"name": "SEK"
+		},
+		{
+			"description": "Singapore Dollar",
+			"keywords": [
+				"SGD",
+				"Singapore",
+				"Dollar",
+				"Singapore"
+			],
+			"countries": [
+				"SGP"
+			],
+			"name": "SGD"
+		},
+		{
+			"description": "Sierra Leonean Leone",
+			"keywords": [
+				"SLL",
+				"Sierra",
+				"Leonean",
+				"Leone",
+				"Sierra Leone"
+			],
+			"countries": [
+				"SLE"
+			],
+			"name": "SLL"
+		},
+		{
+			"description": "Somali Shilling",
+			"keywords": [
+				"SOS",
+				"Somali",
+				"Shilling",
+				"Somalia"
+			],
+			"countries": [
+				"SOM"
+			],
+			"name": "SOS"
+		},
+		{
+			"description": "Surinamese Dollar",
+			"keywords": [
+				"SRD",
+				"Surinamese",
+				"Dollar",
+				"Suriname"
+			],
+			"countries": [
+				"SUR"
+			],
+			"name": "SRD"
+		},
+		{
+			"description": "São Tomé and Príncipe Dobra",
+			"keywords": [
+				"STD",
+				"São",
+				"Tomé",
+				"and",
+				"Príncipe",
+				"Dobra",
+				"Sao Tome and Principe"
+			],
+			"countries": [
+				"STP"
+			],
+			"name": "STD"
+		},
+		{
+			"description": "Syrian Pound",
+			"keywords": [
+				"SYP",
+				"Syrian",
+				"Pound",
+				"Syria"
+			],
+			"countries": [
+				"SYR"
+			],
+			"name": "SYP"
+		},
+		{
+			"description": "Swazi Lilangeni",
+			"keywords": [
+				"SZL",
+				"Swazi",
+				"Lilangeni",
+				"Swaziland"
+			],
+			"countries": [
+				"SWZ"
+			],
+			"name": "SZL"
+		},
+		{
+			"description": "Thai Baht",
+			"keywords": [
+				"THB",
+				"Thai",
+				"Baht",
+				"Thailand"
+			],
+			"countries": [
+				"THA"
+			],
+			"name": "THB"
+		},
+		{
+			"description": "Tajikistani Somoni",
+			"keywords": [
+				"TJS",
+				"Tajikistani",
+				"Somoni",
+				"Tajikistan"
+			],
+			"countries": [
+				"TJK"
+			],
+			"name": "TJS"
+		},
+		{
+			"description": "Turkmenistani Manat",
+			"keywords": [
+				"TMT",
+				"Turkmenistani",
+				"Manat",
+				"Turkmenistan"
+			],
+			"countries": [
+				"TKM"
+			],
+			"name": "TMT"
+		},
+		{
+			"description": "Tunisian Dinar",
+			"keywords": [
+				"TND",
+				"Tunisian",
+				"Dinar",
+				"Tunisia"
+			],
+			"countries": [
+				"TUN"
+			],
+			"name": "TND"
+		},
+		{
+			"description": "Tongan Paʻanga",
+			"keywords": [
+				"TOP",
+				"Tongan",
+				"Pa?anga",
+				"Tonga"
+			],
+			"countries": [
+				"TON"
+			],
+			"name": "TOP"
+		},
+		{
+			"description": "Turkish Lira",
+			"keywords": [
+				"TRY",
+				"Turkish",
+				"Lira",
+				"Turkey"
+			],
+			"countries": [
+				"TUR"
+			],
+			"name": "TRY"
+		},
+		{
+			"description": "Trinidad and Tobago Dollar",
+			"keywords": [
+				"TTD",
+				"Trinidad",
+				"and",
+				"Tobago",
+				"Dollar",
+				"Trinidad and Tobago"
+			],
+			"countries": [
+				"TTO"
+			],
+			"name": "TTD"
+		},
+		{
+			"description": "New Taiwan Dollar",
+			"keywords": [
+				"TWD",
+				"New",
+				"Taiwan",
+				"Dollar",
+				"Taiwan"
+			],
+			"countries": [
+				"TWN"
+			],
+			"name": "TWD"
+		},
+		{
+			"description": "Tanzanian Shilling",
+			"keywords": [
+				"TZS",
+				"Tanzanian",
+				"Shilling",
+				"Tanzania"
+			],
+			"countries": [
+				"TZA"
+			],
+			"name": "TZS"
+		},
+		{
+			"description": "Ukrainian Hryvnia",
+			"keywords": [
+				"UAH",
+				"Ukrainian",
+				"Hryvnia",
+				"Ukraine"
+			],
+			"countries": [
+				"UKR"
+			],
+			"name": "UAH"
+		},
+		{
+			"description": "Ugandan Shilling",
+			"keywords": [
+				"UGX",
+				"Ugandan",
+				"Shilling",
+				"Uganda"
+			],
+			"countries": [
+				"UGA"
+			],
+			"name": "UGX"
+		},
+		{
+			"description": "United States Dollar",
+			"keywords": [
+				"USD",
+				"United",
+				"States",
+				"Dollar",
+				"East Timor",
+				"United States",
+				"American Samoa",
+				"Bonaire, Saint Eustatius and Saba",
+				"British Virgin Islands",
+				"Guam",
+				"Marshall Islands",
+				"Turks and Caicos Islands",
+				"El Salvador",
+				"Palau",
+				"Ecuador",
+				"U.S. Virgin Islands",
+				"Micronesia",
+				"Northern Mariana Islands",
+				"British Indian Ocean Territory",
+				"United States Minor Outlying Islands",
+				"Puerto Rico"
+			],
+			"countries": [
+				"TLS",
+				"USA",
+				"ASM",
+				"BES",
+				"VGB",
+				"GUM",
+				"MHL",
+				"TCA",
+				"SLV",
+				"PLW",
+				"ECU",
+				"VIR",
+				"FSM",
+				"MNP",
+				"IOT",
+				"UMI",
+				"PRI"
+			],
+			"name": "USD"
+		},
+		{
+			"description": "Uruguayan Peso",
+			"keywords": [
+				"UYU",
+				"Uruguayan",
+				"Peso",
+				"Uruguay"
+			],
+			"countries": [
+				"URY"
+			],
+			"name": "UYU"
+		},
+		{
+			"description": "Uzbekistan Som",
+			"keywords": [
+				"UZS",
+				"Uzbekistan",
+				"Som",
+				"Uzbekistan"
+			],
+			"countries": [
+				"UZB"
+			],
+			"name": "UZS"
+		},
+		{
+			"description": "Venezuelan Bolívar Fuerte",
+			"keywords": [
+				"VEF",
+				"Venezuelan",
+				"Bolívar",
+				"Fuerte",
+				"Venezuela"
+			],
+			"countries": [
+				"VEN"
+			],
+			"name": "VEF"
+		},
+		{
+			"description": "Vietnamese Dong",
+			"keywords": [
+				"VND",
+				"Vietnamese",
+				"Dong",
+				"Vietnam"
+			],
+			"countries": [
+				"VNM"
+			],
+			"name": "VND"
+		},
+		{
+			"description": "Vanuatu Vatu",
+			"keywords": [
+				"VUV",
+				"Vanuatu",
+				"Vatu",
+				"Vanuatu"
+			],
+			"countries": [
+				"VUT"
+			],
+			"name": "VUV"
+		},
+		{
+			"description": "Samoan Tala",
+			"keywords": [
+				"WST",
+				"Samoan",
+				"Tala",
+				"Samoa"
+			],
+			"countries": [
+				"WSM"
+			],
+			"name": "WST"
+		},
+		{
+			"description": "CFA Franc BEAC",
+			"keywords": [
+				"XAF",
+				"CFA",
+				"Franc",
+				"BEAC",
+				"Chad",
+				"Gabon",
+				"Republic of the Congo",
+				"Equatorial Guinea",
+				"Cameroon",
+				"Central African Republic"
+			],
+			"countries": [
+				"TCD",
+				"GAB",
+				"COG",
+				"GNQ",
+				"CMR",
+				"CAF"
+			],
+			"name": "XAF"
+		},
+		{
+			"description": "Silver (troy ounce)",
+			"keywords": [
+				"XAG",
+				"Silver",
+				"troy",
+				"ounce"
+			],
+			"countries": null,
+			"name": "XAG"
+		},
+		{
+			"description": "Gold (troy ounce)",
+			"keywords": [
+				"XAU",
+				"Gold",
+				"troy",
+				"ounce"
+			],
+			"countries": null,
+			"name": "XAU"
+		},
+		{
+			"description": "East Caribbean Dollar",
+			"keywords": [
+				"XCD",
+				"East",
+				"Caribbean",
+				"Dollar",
+				"Dominica",
+				"Saint Vincent and the Grenadines",
+				"Montserrat",
+				"Saint Kitts and Nevis",
+				"Anguilla",
+				"Grenada",
+				"Antigua and Barbuda",
+				"Saint Lucia"
+			],
+			"countries": [
+				"DMA",
+				"VCT",
+				"MSR",
+				"KNA",
+				"AIA",
+				"GRD",
+				"ATG",
+				"LCA"
+			],
+			"name": "XCD"
+		},
+		{
+			"description": "CFA Franc BCEAO",
+			"keywords": [
+				"XOF",
+				"CFA",
+				"Franc",
+				"BCEAO",
+				"Burkina Faso",
+				"Senegal",
+				"Mali",
+				"Guinea-Bissau",
+				"Niger",
+				"Ivory Coast",
+				"Togo",
+				"Benin"
+			],
+			"countries": [
+				"BFA",
+				"SEN",
+				"MLI",
+				"GNB",
+				"NER",
+				"CIV",
+				"TGO",
+				"BEN"
+			],
+			"name": "XOF"
+		},
+		{
+			"description": "CFP Franc",
+			"keywords": [
+				"XPF",
+				"CFP",
+				"Franc",
+				"New Caledonia",
+				"Wallis and Futuna",
+				"French Polynesia"
+			],
+			"countries": [
+				"NCL",
+				"WLF",
+				"PYF"
+			],
+			"name": "XPF"
+		},
+		{
+			"description": "Yemeni Rial",
+			"keywords": [
+				"YER",
+				"Yemeni",
+				"Rial",
+				"Yemen"
+			],
+			"countries": [
+				"YEM"
+			],
+			"name": "YER"
+		},
+		{
+			"description": "South African Rand",
+			"keywords": [
+				"ZAR",
+				"South",
+				"African",
+				"Rand",
+				"South Africa"
+			],
+			"countries": [
+				"ZAF"
+			],
+			"name": "ZAR"
+		},
+		{
+			"description": "Zambian Kwacha",
+			"keywords": [
+				"ZMW",
+				"Zambian",
+				"Kwacha",
+				"Zambia"
+			],
+			"countries": [
+				"ZMB"
+			],
+			"name": "ZMW"
+		},
+		{
+			"description": "Zimbabwean Dollar",
+			"keywords": [
+				"ZWL",
+				"Zimbabwean",
+				"Dollar",
+				"Zimbabwe"
+			],
+			"countries": [
+				"ZWE"
+			],
+			"name": "ZWL"
+		}
+	]
+}
