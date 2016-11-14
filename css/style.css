@@ -24,7 +24,7 @@
     height: 510px;
     box-sizing: border-box;
     overflow: hidden;
-    border: 1px solid;
+    border: 1px solid #ffffff;
 }
 
 #head_container {
@@ -34,7 +34,7 @@
 }
 
 #leftSide_rates {
-    width: 80px;
+    width: 230px;
     height: 420px;
     float: left;
     margin-top: 20px;
@@ -42,7 +42,7 @@
 }
 
 #centered_formcontainer {
-    width: 200px;
+    width: 448px;
     height: 420px;
     border: 1px solid;
     margin-left: 20px;
