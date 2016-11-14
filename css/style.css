@@ -32,3 +32,11 @@
     height: 70px;
     border: 1px solid black;
 }
+
+#leftSide_rates {
+    width: 80px;
+    height: 420px;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid;
+}
