@@ -26,3 +26,9 @@
     overflow: hidden;
     border: 1px solid;
 }
+
+#head_container {
+    width: 700px;
+    height: 70px;
+    border: 1px solid black;
+}
