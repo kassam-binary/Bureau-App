@@ -17,3 +17,12 @@
     display: table-cell;
     vertical-align: middle;
 }
+
+#content_box {
+    display: table;
+    width: 700px;
+    height: 510px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid;
+}
