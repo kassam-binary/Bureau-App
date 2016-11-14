@@ -1,4 +1,18 @@
-
+@font-face {
+    font-family: 'robotoregular';
+    src: url(../fonts/Roboto-Regular-webfont.eot);
+    src: url(../fonts/Roboto-Regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/Roboto-Regular-webfont.woff) format("woff"),url(../fonts/Roboto-Regular-webfont.ttf) format("truetype"),url(../fonts/Roboto-Regular-webfont.svg#robotoregular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family:"Roboto Light";
+    src:url("../fonts/Roboto-Light.eot?") format("eot"),url("../fonts/Roboto-Light.woff") format("woff"),url("../fonts/Roboto-Light.ttf") format("truetype"),url("../fonts/Roboto-Light.svg#Roboto-Light") format("svg");font-weight:normal;font-style:normal;
+}
+body {
+    margin: 0 auto;
+    font-family:"Roboto Light";
+}
 #main_container {
     display: table;
     position: fixed;
@@ -112,7 +126,14 @@
     border: 1px solid;
 }
 #note_bar {
-    width: 300px;
+    width: 260px;
     height: 60px;
+    border: 1px solid;
+}
+
+#calcBtn_holder {
+    width: 100px;
+    height: 60px;
+    float: left;
     border: 1px solid;
 }
