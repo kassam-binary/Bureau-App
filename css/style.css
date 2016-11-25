@@ -20,7 +20,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #8dd584; 
+    background: #8dd584; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#8dd584, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8dd584, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8dd584, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8dd584, #ffffff); /* Standard syntax */
 }
 #main_container:before,#main_container:after{
     content: '';
@@ -37,8 +41,8 @@ body {
     width: 760px;
     height: 510px;
     box-sizing: border-box;
-    overflow: hidden;
-    border: 1px solid #8dd584;
+    //overflow: hidden;
+    //border: 1px solid #8dd584;
 }
 
 #head_container {
@@ -56,6 +60,9 @@ body {
     //border: 1px solid;
     border-radius: 5px;
     background-color: #ffffff;
+    -webkit-box-shadow: -1px 4px 13px 5px rgba(0,0,0,0.32);
+-moz-box-shadow: -1px 4px 13px 5px rgba(0,0,0,0.32);
+box-shadow: -1px 4px 13px 5px rgba(0,0,0,0.32);
 }
 #leftSide_rates table{
     width: 100%;
@@ -87,6 +94,9 @@ body {
     border-radius: 5px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
+    -webkit-box-shadow: 2px 2px 13px 4px rgba(0,0,0,0.32);
+-moz-box-shadow: 2px 2px 13px 4px rgba(0,0,0,0.32);
+box-shadow: 2px 2px 13px 4px rgba(0,0,0,0.32);
 }
 
 #logo_holder {
@@ -266,7 +276,8 @@ body {
 .inpt_droper {
     display: block;
 	float: left;
-	margin: 5px 0px
+    color: #a3aca7;
+	margin: 2px 0px;
 }
 
 .dropdown-menu {
@@ -277,7 +288,7 @@ body {
     height: 120px;
     overflow-y: scroll;
   z-index: 1000;
-  //display: none;
+  display: none;
   float: left;
   min-width: 160px;
   padding: 5px 0;
@@ -298,9 +309,22 @@ border-bottom: 1px solid #cccccc;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
 }
+.dropdown-menu li{
+    padding: 4px;
+}
+.dropdown-menu i{
+    display: block;
+    float: left;
+}
+.dropdown-menu .flag_name{
+    display: block;
+    //float: left;
+    margin-left: 25px;
+}
 .dropdown-menu li:hover{
     cursor: pointer;
-background-color: gray;
+    color: #ffffff;
+background-color: #9f9f9f;
 }
 .dropdown-menu::-webkit-scrollbar {
     width: 8px;
