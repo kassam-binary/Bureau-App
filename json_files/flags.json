@@ -1,3 +1,105 @@
 [
-    
+    {
+        "flag_name":"TZ",
+        "currency_name":"Tanzanian Shilling",
+			"keywords": [
+				"TZS",
+				"Tanzanian",
+				"Shilling",
+				"Tanzania"
+			]
+    },
+    {
+        "flag_name":"US",
+        "currency_name":"United States Dollar",
+			"keywords": [
+				"USD",
+				"United",
+				"States",
+				"Dollar",
+				"East Timor",
+				"United States",
+				"American Samoa",
+				"Bonaire, Saint Eustatius and Saba",
+				"British Virgin Islands",
+				"Guam",
+				"Marshall Islands",
+				"Turks and Caicos Islands",
+				"El Salvador",
+				"Palau",
+				"Ecuador",
+				"U.S. Virgin Islands",
+				"Micronesia",
+				"Northern Mariana Islands",
+				"British Indian Ocean Territory",
+				"United States Minor Outlying Islands",
+				"Puerto Rico"
+			]
+    },
+    {
+        "flag_name":"GB",
+        "currency_name":"British Pound Sterling",
+			"keywords": [
+				"GBP",
+				"British",
+				"Pound",
+				"Sterling",
+				"Guernsey",
+				"United Kingdom",
+				"South Georgia and the South Sandwich Islands",
+				"Isle of Man"
+			]
+    },
+    {
+        "flag_name":"KE",
+        "currency_name":"Kenyan Shilling",
+			"keywords": [
+				"KES",
+				"Kenyan",
+				"Shilling",
+				"Kenya"
+			]
+    },
+    {
+        "flag_name":"EU",
+        "currency_name":"Euro",
+			"keywords": [
+				"EUR",
+				"Euro",
+				"Montenegro",
+				"Guadeloupe",
+				"Belgium",
+				"Vatican",
+				"Kosovo",
+				"French Guiana",
+				"Cyprus",
+				"Portugal",
+				"Italy",
+				"Martinique",
+				"Netherlands",
+				"Spain",
+				"Monaco",
+				"France",
+				"Reunion",
+				"Saint Martin",
+				"Latvia",
+				"Slovenia",
+				"Finland",
+				"Malta",
+				"Mayotte",
+				"Estonia",
+				"French Southern Territories",
+				"Saint Pierre and Miquelon",
+				"Luxembourg",
+				"Aland Islands",
+				"Ireland",
+				"Greece",
+				"San Marino",
+				"Saint Barthelemy",
+				"Andorra",
+				"Austria",
+				"Germany",
+				"Slovakia"
+			]
+    }
 ]
