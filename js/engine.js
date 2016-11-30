@@ -32,7 +32,7 @@ $(document).ready(function(){
         drop_list += "<ul id=\'dropdown_current\' class=\'dropdown-menu\'>"
             $.each(flags, function(i, value){
             
-            drop_list +="<li>"+"<i class=\'flag flag-"+value.flag_name+"\'></i>"+"<span class=\'flag_name\'>"+value.currency_name+"</span>"+"</li>";
+            drop_list +="<li data-flag-name=\'"+value.flag_name+"\' data-currency-name=\'"+value.currency_name+"\'>"+"<i class=\'flag flag-"+value.flag_name+"\'></i>"+"<span class=\'flag_name\'>"+value.currency_name+"</span>"+"</li>";
             
         })+ "</ul>";
         
@@ -47,12 +47,14 @@ $(document).ready(function(){
         drop_list += "<ul id=\'dropdown_change\' class=\'dropdown-menu\'>"
             $.each(flags, function(i, value){
             
-            drop_list += "<li>"+"<i class=\'flag flag-"+value.flag_name+"\'></i>"+"<span class=\'flag_name\'>"+value.currency_name+"</span>"+"</li>";
+            drop_list += "<li data-flag-name=\'"+value.flag_name+"\' data-currency-name=\'"+value.currency_name+"\'>"+"<i class=\'flag flag-"+value.flag_name+"\'></i>"+"<span class=\'flag_name\'>"+value.currency_name+"</span>"+"</li>";
             console.log(i+" " +value.flag_name+" "+ value.currency_name)
         }) + "</ul>";
         
         $("#currencyChange").append(drop_list);
     };
+    
+    //$("#currencyChange").delegate("#")
     
     $("#base_currncInpt").on("focus", function(){
        //console.log("yap")
@@ -78,6 +80,31 @@ $(document).ready(function(){
         }
     });
     
+    $('#currencyHave').delegate("#dropdown_current li","click", function(){
+        var sell_currencyName = $(this).attr("data-currency-name");
+         var sell_flagName = $(this).attr("data-flag-name");
+        //change country name
+        $("#base_currncInpt").val(sell_currencyName);
+        //change flag image
+        $(".flag-sell i").attr("class","flag flag-"+sell_flagName);
+        //console.log(d)
+    });
+    
+    $("#currencyChange").delegate("#dropdown_change li", "click", function(){
+        var buy_currencyName = $(this).attr("data-currency-name");
+        var buy_flagName = $(this).attr("data-flag-name");
+        //change country name
+        $("#base_changing").val(buy_currencyName);
+        //change flag name
+        $(".flag-buy i").attr("class","flag flag-"+buy_flagName);
+    });
+    
+    $("#currency_btn").on("click",function(e){
+        e.preventDefault();
+        var sell_currency = $("#base_currncInpt").val();
+        $("#base_currncInpt").val($("#base_changing").val());
+        $("#base_changing").val(sell_currency);
+    })
     
     $("#base_changing").on("focus", function(){
        //console.log("yap")
