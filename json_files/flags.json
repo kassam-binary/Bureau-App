@@ -2,6 +2,7 @@
     {
         "flag_name":"TZ",
         "currency_name":"Tanzanian Shilling",
+        "currency_tag":"TZS",
 			"keywords": [
 				"TZS",
 				"Tanzanian",
@@ -12,6 +13,7 @@
     {
         "flag_name":"US",
         "currency_name":"United States Dollar",
+        "currency_tag":"USD",
 			"keywords": [
 				"USD",
 				"United",
@@ -39,6 +41,7 @@
     {
         "flag_name":"GB",
         "currency_name":"British Pound Sterling",
+        "currency_tag":"GBP",
 			"keywords": [
 				"GBP",
 				"British",
@@ -53,6 +56,7 @@
     {
         "flag_name":"KE",
         "currency_name":"Kenyan Shilling",
+        "currency_tag":"KES",
 			"keywords": [
 				"KES",
 				"Kenyan",
@@ -63,6 +67,7 @@
     {
         "flag_name":"EU",
         "currency_name":"Euro",
+        "currency_tag":"EUR",
 			"keywords": [
 				"EUR",
 				"Euro",
