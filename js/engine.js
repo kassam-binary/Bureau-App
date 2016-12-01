@@ -80,6 +80,11 @@ $(document).ready(function(){
         }
     });
     
+    //Loading default input value for sell currency
+    $("#base_currncInpt").val("United States Dollar");
+    //Loading default input value for buy currency
+    $("#base_changing").val("Tanzanian Shilling");
+    
     $('#currencyHave').delegate("#dropdown_current li","click", function(){
         var sell_currencyName = $(this).attr("data-currency-name");
          var sell_flagName = $(this).attr("data-flag-name");
@@ -99,12 +104,16 @@ $(document).ready(function(){
         $(".flag-buy i").attr("class","flag flag-"+buy_flagName);
     });
     
-    $("#currency_btn").on("click",function(e){
+    $("#swap_currency_btn").on("click",function(e){
         e.preventDefault();
         var sell_currency = $("#base_currncInpt").val();
         $("#base_currncInpt").val($("#base_changing").val());
         $("#base_changing").val(sell_currency);
-    })
+        var sell_flag = $(".flag-sell i").attr("class");
+        var buy_flag = $(".flag-buy i").attr("class")
+        var change_sell_flag = $(".flag-buy i").attr("class",sell_flag);
+        var change_buy_flag = $(".flag-sell i").attr("class",buy_flag);
+    });
     
     $("#base_changing").on("focus", function(){
        //console.log("yap")
