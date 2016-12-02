@@ -164,19 +164,23 @@ $(document).ready(function(){
         console.log(currency_left_sell);
         console.log(sell);
         //console.log(buy);
-        get_baseRates(sell);
+        selling_currency_rates(sell,currency_left_sell)
+    });
+    
+    function selling_currency_rates(sell_rate_data,buying_rate_data){
+        get_baseRates(sell_rate_data);
         console.log(selling_rates)
         $.each(selling_rates,function(i,selling_rate){
             if(i == buy){
                 console.log(selling_rate);
-                var buying_rate = currency_left_sell * selling_rate;
+                var buying_rate = buying_rate_data * selling_rate;
                 console.log(buying_rate)
                 var buying_round = (buying_rate).toFixed(2);
                 //var w = Math.round(buying_rate)
                 $("#buying_currency").val(buying_round);
             };
         });
-    });
+    }
     
     $("#calculate_rate_btn").on("click",function(e){
         e.preventDefault();
@@ -211,6 +215,7 @@ $(document).ready(function(){
         var buy_flag = $(".flag-buy i").attr("class")
         var change_sell_flag = $(".flag-buy i").attr("class",sell_flag);
         var change_buy_flag = $(".flag-sell i").attr("class",buy_flag);
+        //selling_currency_rates(buy,$("#sell_currency").val())
     });
     
     //get base rate
