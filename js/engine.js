@@ -7,15 +7,18 @@ $(document).ready(function(){
         
         $.getJSON("json_files/rates.json", function(ratesData){
             rates = ratesData;
-            console.log(rates);
+            //console.log(rates);
+            var sell_c = "USD";
+            var buy_c = "TZS";
+            currency_default_load(sell_c,buy_c)
             
         });
         //console.log(flags);
-        var v = "BR"
+        //var v = "BR"
         //country_flag(v);
         //countries_flag()
-        currencyHave_list();
-        currencyChange_list();
+        currencySell_list();
+        currencyBuy_list();
         //currency_tag()
     });
     
@@ -35,7 +38,7 @@ $(document).ready(function(){
         });
     };
     
-    function currencyHave_list(){
+    function currencySell_list(){
         var drop_list = "";
         drop_list += "<ul id=\'dropdown_current\' class=\'dropdown-menu\'>"
             $.each(flags, function(i, value){
@@ -48,7 +51,7 @@ $(document).ready(function(){
     };
     //currencyChange_list()
     
-    function currencyChange_list(){
+    function currencyBuy_list(){
         //var countryFlag = country_flag(flag_name)
         //var currencyName = "Tanzania shilingi";
         var drop_list = "";
@@ -95,6 +98,34 @@ $(document).ready(function(){
     //loading sell currency amount
     $("#sell_currency").val(1);
     
+    //currency_default_load(f)
+    function currency_default_load(sell_currency,buy_currency){
+        $("#base_currncInpt").on("focus", function(){
+       //console.log("yap")
+        $(this).val("")
+        }); 
+        $("#base_changing").on("focus", function(){
+       //console.log("yap")
+        $(this).val("")
+        }); 
+        $('#sell_currency').on("focus",function(){
+            $(this).val("")
+        })
+        get_baseRates(sell_currency);
+        console.log(selling_rates);
+        var default_price =  $('#sell_currency').val()
+        $.each(selling_rates,function(i,selling_rate){
+            if(i == buy_currency){
+                console.log(selling_rate);
+                var buying_rate = default_price * selling_rate;
+                console.log(buying_rate)
+                var buying_round = (buying_rate).toFixed(2);
+                //var w = Math.round(buying_rate)
+                $("#buying_currency").val(buying_round);
+            };
+        });
+    };
+    
     $('#currencyHave').delegate("#dropdown_current li","click", function(){
         var sell_currencyName = $(this).attr("data-currency-name");
          var sell_flagName = $(this).attr("data-flag-name");
@@ -123,7 +154,13 @@ $(document).ready(function(){
     });
     
     $('#sell_currency').on("keyup",function(){
-        var currency_left_sell = $(this).val()
+        var currency_left_sell = $(this).val();
+        //format number
+//        $(this).val(function(index,value){
+//            return value
+//            .replace(/\D/g, "")
+//            .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+//        });
         console.log(currency_left_sell);
         console.log(sell);
         //console.log(buy);
@@ -134,7 +171,33 @@ $(document).ready(function(){
                 console.log(selling_rate);
                 var buying_rate = currency_left_sell * selling_rate;
                 console.log(buying_rate)
-                $("#buying_currency").val(buying_rate)
+                var buying_round = (buying_rate).toFixed(2);
+                //var w = Math.round(buying_rate)
+                $("#buying_currency").val(buying_round);
+            };
+        });
+    });
+    
+    $("#calculate_rate_btn").on("click",function(e){
+        e.preventDefault();
+        var currency_left_sell = $("#sell_currency").val();
+        //format number
+//        $("#sell_currency").val(function(index,value){
+//            return value
+//            .replace(/\D/g, "")
+//            .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+//        });
+        console.log(currency_left_sell);
+        console.log(sell);
+        //console.log(buy);
+        get_baseRates(sell);
+        console.log(selling_rates)
+        $.each(selling_rates,function(i,selling_rate){
+            if(i == buy){
+                console.log(selling_rate);
+                var buying_rate = currency_left_sell * selling_rate;
+                console.log(buying_rate)
+                $("#buying_currency").val(buying_rate);
             };
         });
     });
