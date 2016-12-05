@@ -10,7 +10,8 @@ $(document).ready(function(){
             //console.log(rates);
             var sell_c = "USD";
             var buy_c = "TZS";
-            currency_default_load(sell_c,buy_c)
+            currency_default_load(sell_c,buy_c);
+            popular_rates()
             
         });
         //console.log(flags);
@@ -122,6 +123,11 @@ $(document).ready(function(){
                 var buying_round = (buying_rate).toFixed(2);
                 //var w = Math.round(buying_rate)
                 $("#buying_currency").val(buying_round);
+                $('#buying_currency').val(function(index,value){
+                    return value
+                       // .replace(/\D/g, "")
+                    .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                })
             };
         });
     };
@@ -178,6 +184,11 @@ $(document).ready(function(){
                 var buying_round = (buying_rate).toFixed(2);
                 //var w = Math.round(buying_rate)
                 $("#buying_currency").val(buying_round);
+                $("#buying_currency").val(function(index,value){
+                    return value
+                       // .replace(/\D/g, "")
+                    .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                })
             };
         });
     }
@@ -217,6 +228,32 @@ $(document).ready(function(){
         var change_buy_flag = $(".flag-sell i").attr("class",buy_flag);
         //selling_currency_rates(buy,$("#sell_currency").val())
     });
+    
+
+
+    //get popular rates
+    function popular_rates(){
+        //var rate_data = rates[Math.floor(Math.random() * rates.length)];
+        //console.log(rate_data)
+        $.each(rates,function(index,rate){
+            console.log(rate);
+            console.log(rate.base);
+            
+            
+            var base = rate.base
+            var base_rates = rate.rates
+            $.each(base_rates,function(index,base_rate){
+                console.log(base+"/"+index+" "+base_rate);
+                var popular_div = "";
+                popular_div +="<tr>"+
+                                "<td>"+base+"/"+index+"</td>"+
+                                "<td class=\'separa_line\'>"+base_rate+"</td>"+
+                                "<td>+0,0009%</td>"+
+                                "</tr>";
+                $("#leftSide_rates #popular_rate_table").append(popular_div);
+            });
+        })
+    };
     
     //get base rate
     function get_baseRates(flag_tag){
