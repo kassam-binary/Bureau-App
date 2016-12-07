@@ -2,15 +2,19 @@ $(document).ready(function(){
     //Object data
     var flags;
     var rates , sell , buy , selling_rates, buying_rates ;
+    var sell_currency_side,buy_currency_side;
     $.getJSON("json_files/flags.json",function(flagsData){
         flags = flagsData;
         
         $.getJSON("json_files/rates.json", function(ratesData){
             rates = ratesData;
             //console.log(rates);
-            var sell_c = "USD";
-            var buy_c = "TZS";
-            currency_default_load(sell_c,buy_c);
+             
+            
+            sell = "USD";//sell_currency_side;
+            buy =  "TZS";//buy_currency_side;
+            
+            currency_default_load(sell,buy);
             popular_rates()
             
         });
@@ -101,6 +105,8 @@ $(document).ready(function(){
     
     //currency_default_load(f)
     function currency_default_load(sell_currency,buy_currency){
+        console.log(sell_currency)
+        console.log(buy_currency)
         $("#base_currncInpt").on("focus", function(){
        //console.log("yap")
         $(this).val("")
@@ -229,12 +235,72 @@ $(document).ready(function(){
         //selling_currency_rates(buy,$("#sell_currency").val())
     });
     
+$("#leftSide_rates").delegate("#popular_rate_table tr","click",function(e){
+    var id_base = $(e.currentTarget).attr("data-base-id");
+    var id_index = $(e.currentTarget).attr("data-id");
+    sell = id_base;
+    buy = id_index;
+    
+    //change flags
+    //change value of inputs
+    //change base
+    //change global variables
 
+    //load default with new base
+        //currency_default_load(sell,buy);
+
+//    console.log(sell_currency_side);
+//    console.log(buy_currency_side);
+    getPopular_rate(sell,buy)
+    
+    console.log("clicked")
+});
+    function getPopular_rate(sell_currency_code,buy_currency_code){
+        var selling_currency_code;
+        var buying_currency_code;
+        $.each(rates,function(index,rate){
+            //console.log(rate.base)
+            if(sell_currency_code == rate.base){
+                selling_currency_code = sell_currency_code;
+                
+                //console.log(sell_currency_code);
+                $.each(flags,function(index,flag){
+                    if(selling_currency_code == flag.currency_tag){
+                        console.log(flag.flag_name)
+                        console.log(flag.currency_name)
+                        //change country name
+                        $("#base_currncInpt").val(flag.currency_name);
+                        //change flag image
+                        $(".flag-sell i").attr("class","flag flag-"+flag.flag_name);
+                        //console.log(d)
+                        $("#country_name_tab").html(flag.country_name);
+                        $("#currency_name_tab").html(flag.currency_name);
+                    }
+                })
+                
+            }else if(buy_currency_code == rate.base){
+                buying_currency_code = buy_currency_code;
+                //console.log(buying_currency_code)
+                $.each(flags,function(index,flag){
+                    if(buying_currency_code == flag.currency_tag){
+                        console.log(flag.flag_name)
+                        console.log(flag.currency_name)
+                        //console.log("iko")
+                        $("#base_changing").val(flag.currency_name);
+                        //change flag name
+                        $(".flag-buy i").attr("class","flag flag-"+flag.flag_name);
+                    }
+                })
+            };
+        });
+         currency_default_load(selling_currency_code,buying_currency_code);
+    }
 
     //get popular rates
     function popular_rates(){
         //var rate_data = rates[Math.floor(Math.random() * rates.length)];
         //console.log(rate_data)
+        var count_id = 0
         $.each(rates,function(index,rate){
             console.log(rate);
             console.log(rate.base);
@@ -245,14 +311,15 @@ $(document).ready(function(){
             $.each(base_rates,function(index,base_rate){
                 console.log(base+"/"+index+" "+base_rate);
                 var popular_div = "";
-                popular_div +="<tr>"+
+                count_id = count_id+1
+                popular_div +="<tr id="+base+count_id+" data-base-id="+base+" data-id="+index+" >"+
                                 "<td>"+base+"/"+index+"</td>"+
                                 "<td class=\'separa_line\'>"+base_rate+"</td>"+
                                 "<td>+0,0009%</td>"+
                                 "</tr>";
                 $("#leftSide_rates #popular_rate_table").append(popular_div);
             });
-        })
+        });
     };
     
     //get base rate

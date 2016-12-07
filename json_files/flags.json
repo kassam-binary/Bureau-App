@@ -1,6 +1,7 @@
 [
     {
         "flag_name":"TZ",
+        "country_name":"Tanzania",
         "currency_name":"Tanzanian Shilling",
         "currency_tag":"TZS",
 			"keywords": [
@@ -12,6 +13,7 @@
     },
     {
         "flag_name":"US",
+        "country_name":"America",
         "currency_name":"United States Dollar",
         "currency_tag":"USD",
 			"keywords": [
@@ -40,6 +42,7 @@
     },
     {
         "flag_name":"GB",
+        "country_name":"British",
         "currency_name":"British Pound Sterling",
         "currency_tag":"GBP",
 			"keywords": [
@@ -55,6 +58,7 @@
     },
     {
         "flag_name":"KE",
+        "country_name":"Kenya",
         "currency_name":"Kenyan Shilling",
         "currency_tag":"KES",
 			"keywords": [
@@ -66,6 +70,7 @@
     },
     {
         "flag_name":"EU",
+        "country_name":"Euro",
         "currency_name":"Euro",
         "currency_tag":"EUR",
 			"keywords": [
