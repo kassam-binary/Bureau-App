@@ -313,8 +313,8 @@ $("#leftSide_rates").delegate("#popular_rate_table tr","click",function(e){
                 var popular_div = "";
                 count_id = count_id+1
                 popular_div +="<tr id="+base+count_id+" data-base-id="+base+" data-id="+index+" >"+
-                                "<td>"+base+"/"+index+"</td>"+
-                                "<td class=\'separa_line\'>"+base_rate+"</td>"+
+                                "<td class=\'separa_line\'>"+base+"/"+index+"</td>"+
+                                "<td>"+base_rate+"</td>"+
                                 "<td>+0,0009%</td>"+
                                 "</tr>";
                 $("#leftSide_rates #popular_rate_table").append(popular_div);
