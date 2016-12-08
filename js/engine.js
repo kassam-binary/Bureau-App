@@ -98,8 +98,9 @@ $(document).ready(function () {
      * @return flag
      */
     function currency_default_load(sell_currency, buy_currency) {
-        console.log(sell_currency)
-        console.log(buy_currency)
+        sell = sell_currency; //sell_currency_side;
+        buy = buy_currency;
+        console.log("Default --- > Selling Currency : " + sell_currency + " Buying Currency : " + buy_currency)
         $("#base_currncInpt").on("focus", function () {
             //console.log("yap")
             $(this).val("");
@@ -202,6 +203,7 @@ $(document).ready(function () {
             };
         });
     });
+    //swaping currency from selling side to the buying side
     $("#swap_currency_btn").on("click", function (e) {
         e.preventDefault();
         var sell_currency = $("#base_currncInpt").val();
@@ -211,24 +213,26 @@ $(document).ready(function () {
         var buy_flag = $(".flag-buy i").attr("class")
         var change_sell_flag = $(".flag-buy i").attr("class", sell_flag);
         var change_buy_flag = $(".flag-sell i").attr("class", buy_flag);
-        //selling_currency_rates(buy,$("#sell_currency").val())
-        var sel = sell_flag.slice(-2)
-        var buy = buy_flag.slice(-2)
+        //slice class attribute to get flag tag name
+        var get_sell_flag = sell_flag.slice(-2)
+        var get_buying_flag = buy_flag.slice(-2)
         var swap_selling_currency;
         var swap_buying_currency;
         $.each(flags, function (index, flag) {
-            if (sel == flag.flag_name) {
-                console.log("sell currency " + flag.currency_tag)
+            if (get_sell_flag == flag.flag_name) {
+                //console.log("sell currency " + flag.currency_tag)
                 swap_selling_currency = flag.currency_tag;
+                
             }
-            else if (buy == flag.flag_name) {
-                console.log("buy currency " + flag.currency_tag)
+            else if (get_buying_flag == flag.flag_name) {
+                //console.log("buy currency " + flag.currency_tag)
                 swap_buying_currency = flag.currency_tag
+                $("#country_name_tab").html(flag.country_name);
+                //changing currency name on county tab
+                $("#currency_name_tab").html(flag.currency_name);
             };
         });
-        console.log(swap_selling_currency)
-        console.log(swap_buying_currency)
-        currency_default_load(swap_selling_currency, swap_buying_currency)
+        currency_default_load(swap_buying_currency, swap_selling_currency)
     });
     $("#leftSide_rates").delegate("#popular_rate_table tr", "click", function (e) {
         var id_base = $(e.currentTarget).attr("data-base-id");
